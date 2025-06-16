@@ -1,4 +1,4 @@
-class Solution {
+class Solution{
     public int trap(int[] height) {
         int[] leftHighest = new int[height.length];
         int[] rightHighest = new int[height.length];

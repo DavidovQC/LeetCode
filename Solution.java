@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution{
     public int maxArea(int[] heights) {
         return helper(heights, 0, heights.length-1);
     }

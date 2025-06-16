@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-class Solution {
+class Solution{
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         if(nums.length <= 1 || k == 0){
             return false;

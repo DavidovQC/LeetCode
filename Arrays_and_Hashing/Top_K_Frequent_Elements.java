@@ -1,8 +1,7 @@
-
 import java.util.HashMap;
 import java.util.HashSet;
 
-class Solution {
+class Solution{
     public int[] topKFrequent(int[] nums, int k) {
 
         int length = nums.length;

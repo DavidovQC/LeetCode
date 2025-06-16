@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
-class Solution {
+class Solution{
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> list = new ArrayList<>();
         HashSet<Integer> collected = new HashSet<>();

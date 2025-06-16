@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class Solution{
 
     public String encode(List<String> strs) {
         if(strs.isEmpty()) return "";

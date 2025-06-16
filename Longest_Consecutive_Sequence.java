@@ -1,7 +1,7 @@
 
 import java.util.HashSet;
 
-class Solution {
+class Solution{
     public int longestConsecutive(int[] nums) {
         if(nums == null || nums.length == 0){
             return 0;
