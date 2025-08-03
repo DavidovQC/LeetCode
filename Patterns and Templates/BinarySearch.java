@@ -1,5 +1,5 @@
 // "static void main" must be defined in a public class.
-public class Main {
+public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 8, 17, 22, 33};
         int pick = 7;
@@ -10,6 +10,7 @@ public class Main {
             System.out.println("floor(" + String.valueOf(i) + ")" + " = " + floor(arr, i, 0, arr.length-1));
             System.out.println();
         }
+        
 
         System.out.println(floor(arr, pick, 0, arr.length-1));
     }
